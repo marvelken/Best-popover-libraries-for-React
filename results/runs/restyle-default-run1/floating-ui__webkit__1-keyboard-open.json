@@ -1,0 +1,17 @@
+{
+  "impl": "floating-ui",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "1-keyboard-open",
+  "tabsToReachTrigger": -1,
+  "visible": false,
+  "focusAfterOpen": {
+    "tag": "body",
+    "role": null,
+    "text": "Floating UINameEmailRoleAda Lovelaceada@",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-20T18:42:02.782Z"
+}

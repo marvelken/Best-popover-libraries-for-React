@@ -1,0 +1,40 @@
+{
+  "impl": "radix",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "6-edge",
+  "visible": true,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "trigger": {
+    "x": 1183.671875,
+    "y": 685,
+    "width": 88.328125,
+    "height": 27,
+    "top": 685,
+    "right": 1272,
+    "bottom": 712,
+    "left": 1183.671875
+  },
+  "popover": {
+    "x": 1120,
+    "y": 610,
+    "width": 160,
+    "height": 67,
+    "top": 610,
+    "right": 1280,
+    "bottom": 677,
+    "left": 1120
+  },
+  "overflow": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+  },
+  "side": "top",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:54:20.832Z"
+}

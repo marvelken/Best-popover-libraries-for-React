@@ -1,0 +1,19 @@
+{
+  "impl": "floating-ui",
+  "variant": "fixed",
+  "browser": "webkit-option-tab",
+  "test": "3-choose-option",
+  "reachedUser": true,
+  "tabsToUser": 1,
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: User",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "triggerTextAfter": "Role: User",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:54:28.357Z"
+}

@@ -1,0 +1,27 @@
+{
+  "impl": "native",
+  "variant": "fixed",
+  "browser": "webkit-option-tab",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "ariaControlsResolves": null,
+  "popover": {
+    "popoverId": "role-popover-0",
+    "roleOn": "popover element",
+    "role": "dialog",
+    "accessibleName": "Choose role",
+    "roleElementId": "role-popover-0"
+  },
+  "axChromium": null,
+  "pass": false,
+  "recordedAt": "2026-11-16T17:56:20.791Z"
+}

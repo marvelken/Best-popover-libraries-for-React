@@ -1,0 +1,87 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": 1,
+  "outcome": "left-popover",
+  "exitedTo": "trigger-1 \"Role: User\"",
+  "openAtExit": true,
+  "path": [
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "trigger-1",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-2",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-3",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-4",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-5",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "after-table",
+      "text": "Next focusable element",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-corner",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:13:08.489Z"
+}

@@ -1,0 +1,26 @@
+{
+  "impl": "floating-ui",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "2-escape",
+  "openedVisible": false,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "body",
+    "role": null,
+    "text": "Floating UINameEmailRoleAda Lovelaceada@",
+    "testid": null,
+    "where": "body"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Floating UINameEmailRoleAda Lovelaceada@",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:18:08.385Z"
+}

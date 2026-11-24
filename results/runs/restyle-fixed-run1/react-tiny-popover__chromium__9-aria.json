@@ -1,0 +1,49 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "chromium",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": "false",
+    "ariaHaspopup": "dialog",
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": "true",
+    "ariaHaspopup": "dialog",
+    "ariaControls": "role-popover-0"
+  },
+  "ariaControlsResolves": true,
+  "popover": {
+    "popoverId": "role-popover-0",
+    "roleOn": "popover element",
+    "role": "dialog",
+    "accessibleName": "Choose role",
+    "roleElementId": "role-popover-0"
+  },
+  "axChromium": {
+    "triggerClosed": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": false,
+      "hasPopup": "dialog",
+      "ignored": false
+    },
+    "triggerOpen": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": true,
+      "hasPopup": "dialog",
+      "ignored": false
+    },
+    "popover": {
+      "role": "dialog",
+      "name": "Choose role",
+      "expanded": null,
+      "hasPopup": null,
+      "ignored": false
+    }
+  },
+  "pass": true,
+  "recordedAt": "2026-11-20T18:43:24.640Z"
+}

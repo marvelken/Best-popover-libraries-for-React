@@ -1,0 +1,19 @@
+{
+  "impl": "floating-ui",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Floating UINameEmailRoleAda Lovelaceada@",
+    "testid": null,
+    "where": "body"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:18:08.519Z"
+}

@@ -1,0 +1,26 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "2-escape",
+  "openedVisible": false,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (B): createPortal to bodyName",
+    "testid": null,
+    "where": "body"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (B): createPortal to bodyName",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:11:34.309Z"
+}

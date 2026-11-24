@@ -1,0 +1,40 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "6-edge",
+  "visible": true,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "trigger": {
+    "x": 1183.65625,
+    "y": 685,
+    "width": 88.34375,
+    "height": 27,
+    "top": 685,
+    "right": 1272,
+    "bottom": 712,
+    "left": 1183.65625
+  },
+  "popover": {
+    "x": 1120,
+    "y": 720,
+    "width": 160,
+    "height": 67,
+    "top": 720,
+    "right": 1280,
+    "bottom": 787,
+    "left": 1120
+  },
+  "overflow": {
+    "top": 0,
+    "right": 0,
+    "bottom": 67,
+    "left": 0
+  },
+  "side": "bottom",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:15:15.355Z"
+}

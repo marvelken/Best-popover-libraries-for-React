@@ -1,0 +1,87 @@
+{
+  "impl": "native",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Native Popover API + CSS anchor position",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-20T18:43:28.396Z"
+}

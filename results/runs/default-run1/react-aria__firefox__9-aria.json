@@ -1,0 +1,26 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": "false",
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": "true",
+    "ariaHaspopup": null,
+    "ariaControls": "react-aria5186724534-_r_0_"
+  },
+  "ariaControlsResolves": true,
+  "popover": {
+    "popoverId": null,
+    "roleOn": "descendant",
+    "role": "dialog",
+    "accessibleName": "Choose role",
+    "roleElementId": "react-aria5186724534-_r_0_"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:12:30.824Z"
+}

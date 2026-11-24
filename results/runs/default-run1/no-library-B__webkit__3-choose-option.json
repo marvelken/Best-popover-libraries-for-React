@@ -1,0 +1,19 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (B): createPortal to bodyName",
+    "testid": null,
+    "where": "body"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:11:34.591Z"
+}

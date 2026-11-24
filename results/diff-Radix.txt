@@ -1,0 +1,25 @@
+diff --git a/src/routes/Radix.tsx b/src/routes/RadixFixed.tsx
+index bb4ec8a..0a5ffc4 100644
+--- a/src/routes/Radix.tsx
++++ b/src/routes/RadixFixed.tsx
+@@ -1 +1,2 @@
++import { useId } from 'react'
+ import { Popover } from 'radix-ui'
+@@ -6,2 +7,3 @@ import type { RolePickerProps } from '../shared/types'
+ function Picker({ id, role, onSelect }: RolePickerProps) {
++  const titleId = useId()
+   return (
+@@ -12,4 +14,4 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+       <Popover.Portal>
+-        <Popover.Content className="popover" data-testid={`popover-${id}`} sideOffset={8}>
+-          <p className="popover-title">Choose role</p>
++        <Popover.Content className="popover" data-testid={`popover-${id}`} sideOffset={8} aria-labelledby={titleId}>
++          <p className="popover-title" id={titleId}>Choose role</p>
+           <div className="popover-options">
+@@ -27,4 +29,4 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+ 
+-export default function RadixRoute() {
+-  return <Dashboard title="Radix Popover" Picker={Picker} />
++export default function RadixFixedRoute() {
++  return <Dashboard title="Radix Popover (extra work)" Picker={Picker} />
+ }

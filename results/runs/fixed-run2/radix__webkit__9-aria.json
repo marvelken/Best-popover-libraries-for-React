@@ -1,0 +1,27 @@
+{
+  "impl": "radix",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": "false",
+    "ariaHaspopup": "dialog",
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": "true",
+    "ariaHaspopup": "dialog",
+    "ariaControls": "radix-_r_1_"
+  },
+  "ariaControlsResolves": true,
+  "popover": {
+    "popoverId": "radix-_r_1_",
+    "roleOn": "popover element",
+    "role": "dialog",
+    "accessibleName": "Choose role",
+    "roleElementId": "radix-_r_1_"
+  },
+  "axChromium": null,
+  "pass": true,
+  "recordedAt": "2026-11-16T17:55:33.732Z"
+}

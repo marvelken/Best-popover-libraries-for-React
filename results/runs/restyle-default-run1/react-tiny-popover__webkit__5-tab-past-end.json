@@ -1,0 +1,87 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-20T18:42:13.995Z"
+}

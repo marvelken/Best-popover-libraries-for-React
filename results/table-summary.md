@@ -1,0 +1,10 @@
+| Library | Installed version | Last publish | Weekly downloads | GitHub stars | React 19 peer support | Focus on open (C/F) | Focus return on close (Escape, C/F) | Edge positioning (C) | Clipping (C) | Extra work needed (lines added) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| No library (A, absolute) | n/a |  |  |  | n/a | trigger | FAIL, stayed open, focus: first-option | FAIL, side: bottom, overflow right 63.7px, bottom 67px | FAIL, 2/5 points visible |  |
+| No library (B, portal) | n/a |  |  |  | n/a | trigger | FAIL (focus never inside after 3 Tabs), stayed open | FAIL, side: bottom, overflow right 63.7px, bottom 67px | pass, 5/5 points visible |  |
+| Native Popover API + CSS anchor positioning | browser built-in |  |  |  | n/a | trigger | pass, closed, focus: trigger | FAIL, side: bottom, overflow bottom 67px → after extra work: pass, side: top | pass, 5/5 points visible | 5 |
+| Floating UI (`@floating-ui/react`) | 0.27.20 | 2026-07-11 | 34,100,357 | 32,813 | yes (`>=17.0.0`) | first-option | pass, closed, focus: trigger | pass, side: top | pass, 5/5 points visible | 4 |
+| Radix (`radix-ui`) | 1.8.1 | 2026-10-12 | 28,959,243 | 19,506 | yes (`^16.8 \|\| ^17.0 \|\| ^18.0 \|\| ^19.0 \|\| ^19.0.0-rc`) | first-option | pass, closed, focus: trigger | pass, side: top | pass, 5/5 points visible | 4 |
+| React Aria Components (`react-aria-components`) | 1.22.1 | 2026-10-09 | 9,331,488 | 16,043 | yes (`^16.8.0 \|\| ^17.0.0-rc.1 \|\| ^18.0.0 \|\| ^19.0.0-rc.1`) | popover-container | pass, closed, focus: trigger | pass, side: top | pass, 5/5 points visible | 0 |
+| Base UI (`@base-ui/react`) | 1.9.0 | 2026-10-09 | 30,564,890 | 11,434 | yes (`^17 \|\| ^18 \|\| ^19`) | first-option | pass, closed, focus: trigger | pass, side: top | pass, 5/5 points visible | 0 |
+| react-tiny-popover (`react-tiny-popover`) | 8.1.6 | 2025-02-02 | 259,426 | 488 | yes (`>=16.8.0`) | trigger | FAIL (focus never inside after 3 Tabs), stayed open → after extra work: pass, closed, focus: trigger | FAIL, side: bottom, overflow bottom 67px → after extra work: pass, side: top | pass, 5/5 points visible | 48 |

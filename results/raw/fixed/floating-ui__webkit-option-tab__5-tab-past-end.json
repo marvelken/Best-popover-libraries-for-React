@@ -1,0 +1,87 @@
+{
+  "impl": "floating-ui",
+  "variant": "fixed",
+  "browser": "webkit-option-tab",
+  "test": "5-tab-past-end",
+  "startedInside": true,
+  "pressesToEnterPopover": 0,
+  "outcome": "left-popover",
+  "exitedTo": "trigger-1 \"Role: User\"",
+  "openAtExit": false,
+  "path": [
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "trigger-1",
+      "text": "Role: User",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-2",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-3",
+      "text": "Role: User",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-4",
+      "text": "Role: User",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-5",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "after-table",
+      "text": "Next focusable element",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-corner",
+      "text": "Role: User",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Floating UI (extra work)NameEmailRoleAda",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-1",
+      "text": "Role: User",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "trigger-2",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:56:23.246Z"
+}

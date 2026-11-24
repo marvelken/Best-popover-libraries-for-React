@@ -1,0 +1,19 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (A): position absolute, no po",
+    "testid": null,
+    "where": "body"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:13:26.351Z"
+}

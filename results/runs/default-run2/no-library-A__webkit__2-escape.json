@@ -1,0 +1,26 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "2-escape",
+  "openedVisible": false,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (A): position absolute, no po",
+    "testid": null,
+    "where": "body"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (A): position absolute, no po",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:13:26.340Z"
+}

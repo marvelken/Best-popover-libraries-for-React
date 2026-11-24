@@ -1,0 +1,27 @@
+{
+  "impl": "floating-ui",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": "false",
+    "ariaHaspopup": "dialog",
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": "true",
+    "ariaHaspopup": "dialog",
+    "ariaControls": "_r_0_"
+  },
+  "ariaControlsResolves": true,
+  "popover": {
+    "popoverId": "_r_0_",
+    "roleOn": "popover element",
+    "role": "dialog",
+    "accessibleName": "",
+    "roleElementId": "_r_0_"
+  },
+  "axChromium": null,
+  "pass": false,
+  "recordedAt": "2026-11-20T18:42:04.465Z"
+}

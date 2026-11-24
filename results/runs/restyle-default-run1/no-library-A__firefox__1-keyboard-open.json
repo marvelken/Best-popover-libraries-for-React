@@ -1,0 +1,17 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "1-keyboard-open",
+  "tabsToReachTrigger": 1,
+  "visible": true,
+  "focusAfterOpen": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: Admin",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-20T18:42:37.587Z"
+}

@@ -1,0 +1,27 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "ariaControlsResolves": null,
+  "popover": {
+    "popoverId": null,
+    "roleOn": null,
+    "role": null,
+    "accessibleName": "",
+    "roleElementId": null
+  },
+  "axChromium": null,
+  "pass": false,
+  "recordedAt": "2026-11-16T17:18:53.433Z"
+}

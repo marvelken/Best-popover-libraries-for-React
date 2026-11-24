@@ -1,0 +1,25 @@
+diff --git a/src/routes/Native.tsx b/src/routes/NativeFixed.tsx
+index d02614b..b63bca0 100644
+--- a/src/routes/Native.tsx
++++ b/src/routes/NativeFixed.tsx
+@@ -10,2 +10,3 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+   const anchor = `--role-anchor-${id}`
++  const titleId = `role-popover-title-${id}`
+   return (
+@@ -29,5 +30,7 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+         onToggle={(e) => setOpen(e.newState === 'open')}
+-        style={{ positionAnchor: anchor }}
++        role="dialog"
++        aria-labelledby={titleId}
++        style={{ positionAnchor: anchor, positionTryFallbacks: 'flip-block, flip-inline, flip-block flip-inline' }}
+       >
+-        <p className="popover-title">Choose role</p>
++        <p className="popover-title" id={titleId}>Choose role</p>
+         <div className="popover-options">
+@@ -44,4 +47,4 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+ 
+-export default function NativeRoute() {
+-  return <Dashboard title="Native Popover API + CSS anchor positioning" Picker={Picker} />
++export default function NativeFixedRoute() {
++  return <Dashboard title="Native Popover API + CSS anchor positioning (extra work)" Picker={Picker} />
+ }

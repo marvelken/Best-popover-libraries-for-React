@@ -1,0 +1,22 @@
+{
+  "impl": "floating-ui",
+  "variant": "fixed",
+  "browser": "webkit-option-tab",
+  "test": "8-scroll",
+  "scrolledBy": 200,
+  "gapBefore": {
+    "vertical": 10,
+    "horizontal": -30.921875
+  },
+  "gapAfter": {
+    "vertical": 10,
+    "horizontal": -30.921875
+  },
+  "driftPx": {
+    "vertical": 0,
+    "horizontal": 0
+  },
+  "outcome": "attached",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:55:41.618Z"
+}

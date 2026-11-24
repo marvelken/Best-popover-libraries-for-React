@@ -1,0 +1,49 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "ariaControlsResolves": null,
+  "popover": {
+    "popoverId": null,
+    "roleOn": null,
+    "role": null,
+    "accessibleName": "",
+    "roleElementId": null
+  },
+  "axChromium": {
+    "triggerClosed": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": null,
+      "hasPopup": null,
+      "ignored": false
+    },
+    "triggerOpen": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": null,
+      "hasPopup": null,
+      "ignored": false
+    },
+    "popover": {
+      "role": "generic",
+      "name": "",
+      "expanded": null,
+      "hasPopup": null,
+      "ignored": false
+    }
+  },
+  "pass": false,
+  "recordedAt": "2026-11-20T18:41:39.985Z"
+}

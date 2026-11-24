@@ -1,0 +1,19 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "3-choose-option",
+  "reachedUser": true,
+  "tabsToUser": 2,
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: User",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "triggerTextAfter": "Role: User",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:11:43.392Z"
+}

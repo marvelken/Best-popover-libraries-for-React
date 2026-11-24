@@ -1,0 +1,18 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "react-tiny-popoverNameEmailRoleAda Lovel",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:18:20.081Z"
+}

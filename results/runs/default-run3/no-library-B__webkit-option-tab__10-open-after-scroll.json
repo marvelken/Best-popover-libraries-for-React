@@ -1,0 +1,36 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit-option-tab",
+  "test": "10-open-after-scroll",
+  "scrollY": 200,
+  "visible": true,
+  "trigger": {
+    "x": 500.921875,
+    "y": 119.5,
+    "width": 98.625,
+    "height": 27,
+    "top": 119.5,
+    "right": 599.546875,
+    "bottom": 146.5,
+    "left": 500.921875
+  },
+  "popover": {
+    "x": 500.921875,
+    "y": -45.5,
+    "width": 160,
+    "height": 67,
+    "top": -45.5,
+    "right": 660.921875,
+    "bottom": 21.5,
+    "left": 500.921875
+  },
+  "gap": {
+    "below": -192,
+    "above": 98,
+    "horizontal": 0
+  },
+  "attached": false,
+  "pass": false,
+  "recordedAt": "2026-11-16T17:16:06.602Z"
+}

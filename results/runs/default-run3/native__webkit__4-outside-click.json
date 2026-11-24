@@ -1,0 +1,18 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Native Popover API + CSS anchor position",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:15:41.089Z"
+}

@@ -1,0 +1,19 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit-option-tab",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": false,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Next focusable element",
+    "testid": "after-table",
+    "where": "after-table"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-20T18:42:18.471Z"
+}

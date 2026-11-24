@@ -1,0 +1,36 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "10-open-after-scroll",
+  "scrollY": 200,
+  "visible": true,
+  "trigger": {
+    "x": 500.890625,
+    "y": 119.5,
+    "width": 98.640625,
+    "height": 27,
+    "top": 119.5,
+    "right": 599.53125,
+    "bottom": 146.5,
+    "left": 500.890625
+  },
+  "popover": {
+    "x": 500.890625,
+    "y": 154.5,
+    "width": 160,
+    "height": 67,
+    "top": 154.5,
+    "right": 660.890625,
+    "bottom": 221.5,
+    "left": 500.890625
+  },
+  "gap": {
+    "below": 8,
+    "above": -102,
+    "horizontal": 0
+  },
+  "attached": true,
+  "pass": true,
+  "recordedAt": "2026-11-16T17:11:20.771Z"
+}

@@ -1,0 +1,17 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "1-keyboard-open",
+  "tabsToReachTrigger": -1,
+  "visible": false,
+  "focusAfterOpen": {
+    "tag": "body",
+    "role": null,
+    "text": "Native Popover API + CSS anchor position",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:15:39.762Z"
+}

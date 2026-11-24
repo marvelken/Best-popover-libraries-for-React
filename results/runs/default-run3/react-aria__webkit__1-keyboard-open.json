@@ -1,0 +1,17 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "1-keyboard-open",
+  "tabsToReachTrigger": 1,
+  "visible": true,
+  "focusAfterOpen": {
+    "tag": "section",
+    "role": "dialog",
+    "text": "Choose roleAdminUser",
+    "testid": null,
+    "where": "popover-container"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:15:49.643Z"
+}

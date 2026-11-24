@@ -1,0 +1,26 @@
+{
+  "impl": "floating-ui",
+  "variant": "fixed",
+  "browser": "firefox",
+  "test": "2-escape",
+  "openedVisible": true,
+  "tabsToMoveFocusInside": 0,
+  "focusInsideBeforeEscape": true,
+  "focusBeforeEscape": {
+    "tag": "button",
+    "role": null,
+    "text": "Admin",
+    "testid": null,
+    "where": "first-option"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: Admin",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:54:39.029Z"
+}

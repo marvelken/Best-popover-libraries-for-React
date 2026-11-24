@@ -1,0 +1,26 @@
+diff --git a/src/routes/FloatingUi.tsx b/src/routes/FloatingUiFixed.tsx
+index d17ed16..43b6977 100644
+--- a/src/routes/FloatingUi.tsx
++++ b/src/routes/FloatingUiFixed.tsx
+@@ -13,2 +13,3 @@ import {
+   FloatingPortal,
++  useId,
+ } from '@floating-ui/react'
+@@ -20,2 +21,3 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+   const [isOpen, setIsOpen] = useState(false)
++  const headingId = useId()
+ 
+@@ -41,4 +43,4 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+           <FloatingFocusManager context={context} modal={false}>
+-            <div ref={refs.setFloating} className="popover" data-testid={`popover-${id}`} style={floatingStyles} {...getFloatingProps()}>
+-              <p className="popover-title">Choose role</p>
++            <div ref={refs.setFloating} className="popover" data-testid={`popover-${id}`} style={floatingStyles} aria-labelledby={headingId} {...getFloatingProps()}>
++              <p className="popover-title" id={headingId}>Choose role</p>
+               <div className="popover-options">
+@@ -58,4 +60,4 @@ function Picker({ id, role, onSelect }: RolePickerProps) {
+ 
+-export default function FloatingUiRoute() {
+-  return <Dashboard title="Floating UI" Picker={Picker} />
++export default function FloatingUiFixedRoute() {
++  return <Dashboard title="Floating UI (extra work)" Picker={Picker} />
+ }

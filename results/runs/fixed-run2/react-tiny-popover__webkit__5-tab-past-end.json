@@ -1,0 +1,87 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:55:36.230Z"
+}

@@ -1,0 +1,17 @@
+{
+  "impl": "base-ui",
+  "variant": "default",
+  "browser": "webkit-option-tab",
+  "test": "1-keyboard-open",
+  "tabsToReachTrigger": 1,
+  "visible": true,
+  "focusAfterOpen": {
+    "tag": "button",
+    "role": null,
+    "text": "Admin",
+    "testid": null,
+    "where": "first-option"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:12:04.102Z"
+}

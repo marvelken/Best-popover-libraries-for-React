@@ -1,0 +1,22 @@
+{
+  "impl": "radix",
+  "variant": "fixed",
+  "browser": "firefox",
+  "test": "8-scroll",
+  "scrolledBy": 200,
+  "gapBefore": {
+    "vertical": 8.5,
+    "horizontal": -30.83331298828125
+  },
+  "gapAfter": {
+    "vertical": 8.5,
+    "horizontal": -30.83331298828125
+  },
+  "driftPx": {
+    "vertical": 0,
+    "horizontal": 0
+  },
+  "outcome": "attached",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:54:43.788Z"
+}

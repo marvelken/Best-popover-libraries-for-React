@@ -1,0 +1,26 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "2-escape",
+  "openedVisible": true,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: User",
+    "testid": "trigger-3",
+    "where": "trigger-3"
+  },
+  "closed": false,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: User",
+    "testid": "trigger-3",
+    "where": "trigger-3"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:19:18.702Z"
+}

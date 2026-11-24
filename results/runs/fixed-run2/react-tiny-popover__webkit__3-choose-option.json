@@ -1,0 +1,19 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "react-tiny-popover (extra work)NameEmail",
+    "testid": null,
+    "where": "body"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:55:35.119Z"
+}

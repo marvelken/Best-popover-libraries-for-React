@@ -1,0 +1,36 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "10-open-after-scroll",
+  "scrollY": 200,
+  "visible": true,
+  "trigger": {
+    "x": 500.83331298828125,
+    "y": 119.5,
+    "width": 98.75,
+    "height": 27,
+    "top": 119.5,
+    "right": 599.5833129882812,
+    "bottom": 146.5,
+    "left": 500.83331298828125
+  },
+  "popover": {
+    "x": 470.20001220703125,
+    "y": 154,
+    "width": 160,
+    "height": 67,
+    "top": 154,
+    "right": 630.2000122070312,
+    "bottom": 221,
+    "left": 470.20001220703125
+  },
+  "gap": {
+    "below": 7.5,
+    "above": -101.5,
+    "horizontal": -30.63330078125
+  },
+  "attached": true,
+  "pass": true,
+  "recordedAt": "2026-11-20T18:42:55.772Z"
+}

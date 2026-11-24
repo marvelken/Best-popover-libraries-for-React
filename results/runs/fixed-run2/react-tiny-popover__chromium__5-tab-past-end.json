@@ -1,0 +1,87 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "chromium",
+  "test": "5-tab-past-end",
+  "startedInside": true,
+  "pressesToEnterPopover": 0,
+  "outcome": "left-popover",
+  "exitedTo": "body \"react-tiny-popover (extra work)NameEmail\"",
+  "openAtExit": true,
+  "path": [
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "body",
+      "text": "react-tiny-popover (extra work)NameEmail",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-1",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-2",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-3",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-4",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-5",
+      "text": "Role: Admin",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "after-table",
+      "text": "Next focusable element",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "trigger-corner",
+      "text": "Role: User",
+      "inside": false,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:55:26.566Z"
+}

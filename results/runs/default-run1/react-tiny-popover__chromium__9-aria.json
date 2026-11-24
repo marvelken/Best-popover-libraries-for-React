@@ -1,0 +1,26 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "ariaControlsResolves": null,
+  "popover": {
+    "popoverId": null,
+    "roleOn": null,
+    "role": null,
+    "accessibleName": "",
+    "roleElementId": null
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:11:29.994Z"
+}

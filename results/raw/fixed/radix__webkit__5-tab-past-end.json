@@ -1,0 +1,87 @@
+{
+  "impl": "radix",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix Popover (extra work)NameEmailRoleA",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:56:15.743Z"
+}

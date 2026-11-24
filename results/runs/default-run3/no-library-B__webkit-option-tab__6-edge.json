@@ -1,0 +1,40 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit-option-tab",
+  "test": "6-edge",
+  "visible": true,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "trigger": {
+    "x": 1183.671875,
+    "y": 685,
+    "width": 88.328125,
+    "height": 27,
+    "top": 685,
+    "right": 1272,
+    "bottom": 712,
+    "left": 1183.671875
+  },
+  "popover": {
+    "x": 1183.671875,
+    "y": 720,
+    "width": 160,
+    "height": 67,
+    "top": 720,
+    "right": 1343.671875,
+    "bottom": 787,
+    "left": 1183.671875
+  },
+  "overflow": {
+    "top": 0,
+    "right": 63.671875,
+    "bottom": 67,
+    "left": 0
+  },
+  "side": "bottom",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:16:04.949Z"
+}

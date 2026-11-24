@@ -1,0 +1,26 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "2-escape",
+  "openedVisible": true,
+  "tabsToMoveFocusInside": 0,
+  "focusInsideBeforeEscape": true,
+  "focusBeforeEscape": {
+    "tag": "section",
+    "role": "dialog",
+    "text": "Choose roleAdminUser",
+    "testid": null,
+    "where": "popover-container"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: Admin",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:19:10.816Z"
+}

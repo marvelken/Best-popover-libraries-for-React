@@ -1,0 +1,19 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Next focusable element",
+    "testid": "after-table",
+    "where": "after-table"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:13:17.733Z"
+}

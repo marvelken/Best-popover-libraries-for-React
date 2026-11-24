@@ -1,0 +1,19 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "3-choose-option",
+  "reachedUser": false,
+  "tabsToUser": 6,
+  "closed": false,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Next focusable element",
+    "testid": "after-table",
+    "where": "after-table"
+  },
+  "triggerTextAfter": "Role: Admin",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:18:55.358Z"
+}

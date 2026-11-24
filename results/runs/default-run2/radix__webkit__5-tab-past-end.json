@@ -1,0 +1,87 @@
+{
+  "impl": "radix",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:13:40.496Z"
+}

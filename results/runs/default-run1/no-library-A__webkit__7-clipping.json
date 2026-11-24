@@ -1,0 +1,17 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "7-clipping",
+  "visibleByCss": true,
+  "hits": {
+    "center": false,
+    "topLeft": true,
+    "topRight": true,
+    "bottomLeft": false,
+    "bottomRight": false
+  },
+  "hitCount": 2,
+  "pass": false,
+  "recordedAt": "2026-11-16T17:11:32.634Z"
+}

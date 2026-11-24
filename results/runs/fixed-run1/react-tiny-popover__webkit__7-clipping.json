@@ -1,0 +1,17 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "7-clipping",
+  "visibleByCss": true,
+  "hits": {
+    "center": true,
+    "topLeft": true,
+    "topRight": true,
+    "bottomLeft": true,
+    "bottomRight": true
+  },
+  "hitCount": 5,
+  "pass": true,
+  "recordedAt": "2026-11-16T17:54:23.592Z"
+}

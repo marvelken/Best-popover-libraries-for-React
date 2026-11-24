@@ -1,0 +1,18 @@
+{
+  "impl": "radix",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-20T18:42:06.046Z"
+}

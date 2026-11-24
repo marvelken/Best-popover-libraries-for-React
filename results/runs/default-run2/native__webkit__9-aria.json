@@ -1,0 +1,26 @@
+{
+  "impl": "native",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": null,
+    "ariaHaspopup": null,
+    "ariaControls": null
+  },
+  "ariaControlsResolves": null,
+  "popover": {
+    "popoverId": "role-popover-0",
+    "roleOn": null,
+    "role": null,
+    "accessibleName": "",
+    "roleElementId": null
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:13:34.805Z"
+}

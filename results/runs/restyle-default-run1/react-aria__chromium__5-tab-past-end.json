@@ -1,0 +1,87 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "5-tab-past-end",
+  "startedInside": true,
+  "pressesToEnterPopover": 0,
+  "outcome": "trapped",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "first-option",
+      "text": "Admin",
+      "inside": true,
+      "open": true
+    },
+    {
+      "focus": "second-option",
+      "text": "User",
+      "inside": true,
+      "open": true
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-20T18:41:50.391Z"
+}

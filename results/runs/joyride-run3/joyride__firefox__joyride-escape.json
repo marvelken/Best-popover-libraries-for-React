@@ -1,0 +1,27 @@
+{
+  "impl": "joyride",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "joyride-escape",
+  "openBeforeEscape": true,
+  "stepTextBeforeEscape": "Change a user role here.BackNext",
+  "focusBeforeEscape": {
+    "tag": "button",
+    "role": "button",
+    "testid": "button-primary",
+    "text": "Next",
+    "insideTooltip": true
+  },
+  "closed": true,
+  "overlayStillPresent": false,
+  "beaconAfter": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "testid": "button-beacon",
+    "text": "",
+    "insideTooltip": false
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:57:54.673Z"
+}

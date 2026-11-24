@@ -1,0 +1,87 @@
+{
+  "impl": "no-library-B",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (B): createPortal to bodyName",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-20T18:42:00.143Z"
+}

@@ -1,0 +1,26 @@
+{
+  "impl": "radix",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "2-escape",
+  "openedVisible": false,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "body",
+    "role": null,
+    "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+    "testid": null,
+    "where": "body"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Radix PopoverNameEmailRoleAda Lovelacead",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:11:40.925Z"
+}

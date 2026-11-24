@@ -1,0 +1,87 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "5-tab-past-end",
+  "startedInside": false,
+  "pressesToEnterPopover": null,
+  "outcome": "never-entered-popover",
+  "exitedTo": null,
+  "openAtExit": null,
+  "path": [
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    },
+    {
+      "focus": "body",
+      "text": "No library (A): position absolute, no po",
+      "inside": false,
+      "open": false
+    }
+  ],
+  "pass": null,
+  "recordedAt": "2026-11-16T17:15:35.337Z"
+}

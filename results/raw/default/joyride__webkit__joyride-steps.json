@@ -1,0 +1,141 @@
+{
+  "impl": "joyride",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "joyride-steps",
+  "steps": [
+    {
+      "step": 1,
+      "clickedBeacon": false,
+      "rendered": true,
+      "tooltipRole": "alertdialog",
+      "box": {
+        "top": 309,
+        "right": 830,
+        "bottom": 411.390625,
+        "left": 450,
+        "width": 380,
+        "height": 102.390625
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "overflow": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "focus": {
+        "tag": "button",
+        "role": "button",
+        "testid": "button-primary",
+        "text": "Next",
+        "insideTooltip": true
+      }
+    },
+    {
+      "step": 2,
+      "clickedBeacon": false,
+      "rendered": true,
+      "tooltipRole": "alertdialog",
+      "box": {
+        "top": 106,
+        "right": 390,
+        "bottom": 208.390625,
+        "left": 10,
+        "width": 380,
+        "height": 102.390625
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "overflow": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "focus": {
+        "tag": "button",
+        "role": "button",
+        "testid": "button-primary",
+        "text": "Next",
+        "insideTooltip": true
+      }
+    },
+    {
+      "step": 3,
+      "clickedBeacon": false,
+      "rendered": true,
+      "tooltipRole": "alertdialog",
+      "box": {
+        "top": 93.5,
+        "right": 740,
+        "bottom": 195.890625,
+        "left": 360,
+        "width": 380,
+        "height": 102.390625
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "overflow": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "focus": {
+        "tag": "button",
+        "role": "button",
+        "testid": "button-primary",
+        "text": "Next",
+        "insideTooltip": true
+      }
+    },
+    {
+      "step": 4,
+      "clickedBeacon": false,
+      "rendered": true,
+      "tooltipRole": "alertdialog",
+      "box": {
+        "top": 546.5,
+        "right": 1270,
+        "bottom": 648.890625,
+        "left": 890,
+        "width": 380,
+        "height": 102.390625
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "overflow": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "focus": {
+        "tag": "button",
+        "role": "button",
+        "testid": "button-primary",
+        "text": "Last",
+        "insideTooltip": true
+      }
+    }
+  ],
+  "allStepsRendered": true,
+  "cornerStepOverflow": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:57:50.038Z"
+}

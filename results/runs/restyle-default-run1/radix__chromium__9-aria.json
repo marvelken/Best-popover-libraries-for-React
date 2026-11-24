@@ -1,0 +1,49 @@
+{
+  "impl": "radix",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "9-aria",
+  "closed": {
+    "ariaExpanded": "false",
+    "ariaHaspopup": "dialog",
+    "ariaControls": null
+  },
+  "open": {
+    "ariaExpanded": "true",
+    "ariaHaspopup": "dialog",
+    "ariaControls": "radix-_r_0_"
+  },
+  "ariaControlsResolves": true,
+  "popover": {
+    "popoverId": "radix-_r_0_",
+    "roleOn": "popover element",
+    "role": "dialog",
+    "accessibleName": "",
+    "roleElementId": "radix-_r_0_"
+  },
+  "axChromium": {
+    "triggerClosed": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": false,
+      "hasPopup": "dialog",
+      "ignored": false
+    },
+    "triggerOpen": {
+      "role": "button",
+      "name": "Role: Admin",
+      "expanded": true,
+      "hasPopup": "dialog",
+      "ignored": false
+    },
+    "popover": {
+      "role": "dialog",
+      "name": "",
+      "expanded": null,
+      "hasPopup": null,
+      "ignored": false
+    }
+  },
+  "pass": false,
+  "recordedAt": "2026-11-20T18:41:48.035Z"
+}

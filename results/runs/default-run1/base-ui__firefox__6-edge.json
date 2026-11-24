@@ -1,0 +1,40 @@
+{
+  "impl": "base-ui",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "6-edge",
+  "visible": true,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "trigger": {
+    "x": 1183.550048828125,
+    "y": 685,
+    "width": 88.44999694824219,
+    "height": 27,
+    "top": 685,
+    "right": 1272.0000457763672,
+    "bottom": 712,
+    "left": 1183.550048828125
+  },
+  "popover": {
+    "x": 1115,
+    "y": 610,
+    "width": 160,
+    "height": 67,
+    "top": 610,
+    "right": 1275,
+    "bottom": 677,
+    "left": 1115
+  },
+  "overflow": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+  },
+  "side": "top",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:12:32.621Z"
+}

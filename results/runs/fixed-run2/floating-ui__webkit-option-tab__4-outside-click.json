@@ -1,0 +1,18 @@
+{
+  "impl": "floating-ui",
+  "variant": "fixed",
+  "browser": "webkit-option-tab",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "Floating UI (extra work)NameEmailRoleAda",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:55:40.471Z"
+}

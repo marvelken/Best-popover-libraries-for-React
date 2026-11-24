@@ -1,0 +1,26 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "2-escape",
+  "openedVisible": false,
+  "tabsToMoveFocusInside": 3,
+  "focusInsideBeforeEscape": false,
+  "focusBeforeEscape": {
+    "tag": "body",
+    "role": null,
+    "text": "react-tiny-popover (extra work)NameEmail",
+    "testid": null,
+    "where": "body"
+  },
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "react-tiny-popover (extra work)NameEmail",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": false,
+  "recordedAt": "2026-11-16T17:55:34.880Z"
+}

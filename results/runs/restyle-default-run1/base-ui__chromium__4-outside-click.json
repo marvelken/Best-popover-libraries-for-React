@@ -1,0 +1,18 @@
+{
+  "impl": "base-ui",
+  "variant": "default",
+  "browser": "chromium",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: Admin",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-20T18:41:51.560Z"
+}

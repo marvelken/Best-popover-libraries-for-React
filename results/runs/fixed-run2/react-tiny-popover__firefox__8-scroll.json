@@ -1,0 +1,22 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "firefox",
+  "test": "8-scroll",
+  "scrolledBy": 200,
+  "gapBefore": {
+    "vertical": 8.5,
+    "horizontal": -30.83331298828125
+  },
+  "gapAfter": {
+    "vertical": 53.5,
+    "horizontal": -30.83331298828125
+  },
+  "driftPx": {
+    "vertical": 45,
+    "horizontal": 0
+  },
+  "outcome": "drifted",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:55:57.575Z"
+}

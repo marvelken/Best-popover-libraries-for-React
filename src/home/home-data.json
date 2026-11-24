@@ -1,0 +1,3487 @@
+{
+ "generatedFrom": "results/results.json",
+ "reactVersion": "19.3.1",
+ "browsers": {
+  "chromium": "159.0.8154.6",
+  "firefox": "159.0",
+  "webkit-option-tab": "27.2",
+  "webkit": "27.2"
+ },
+ "summary": {
+  "no-library-A": {
+   "label": "No library (A, absolute)",
+   "version": "n/a",
+   "react19": "n/a",
+   "extraLines": null
+  },
+  "no-library-B": {
+   "label": "No library (B, portal)",
+   "version": "n/a",
+   "react19": "n/a",
+   "extraLines": null
+  },
+  "native": {
+   "label": "Native Popover API + CSS anchor positioning",
+   "version": "browser built-in",
+   "react19": "n/a",
+   "extraLines": 5
+  },
+  "floating-ui": {
+   "label": "Floating UI (`@floating-ui/react`)",
+   "version": "0.27.20",
+   "reactPeerRange": ">=17.0.0",
+   "react19": "yes (`>=17.0.0`)",
+   "lastPublish": "2026-07-11",
+   "weeklyDownloads": 34100357,
+   "stars": 32813,
+   "extraLines": 4
+  },
+  "radix": {
+   "label": "Radix (`radix-ui`)",
+   "version": "1.8.1",
+   "reactPeerRange": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+   "react19": "yes (`^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc`)",
+   "lastPublish": "2026-10-12",
+   "weeklyDownloads": 28959243,
+   "stars": 19506,
+   "extraLines": 4
+  },
+  "react-aria": {
+   "label": "React Aria Components (`react-aria-components`)",
+   "version": "1.22.1",
+   "reactPeerRange": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+   "react19": "yes (`^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1`)",
+   "lastPublish": "2026-10-09",
+   "weeklyDownloads": 9331488,
+   "stars": 16043,
+   "extraLines": 0
+  },
+  "base-ui": {
+   "label": "Base UI (`@base-ui/react`)",
+   "version": "1.9.0",
+   "reactPeerRange": "^17 || ^18 || ^19",
+   "react19": "yes (`^17 || ^18 || ^19`)",
+   "lastPublish": "2026-10-09",
+   "weeklyDownloads": 30564890,
+   "stars": 11434,
+   "extraLines": 0
+  },
+  "react-tiny-popover": {
+   "label": "react-tiny-popover (`react-tiny-popover`)",
+   "version": "8.1.6",
+   "reactPeerRange": ">=16.8.0",
+   "react19": "yes (`>=16.8.0`)",
+   "lastPublish": "2025-02-02",
+   "weeklyDownloads": 259426,
+   "stars": 488,
+   "extraLines": 48
+  }
+ },
+ "default": [
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "base-ui",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "chromium",
+   "test": "joyride-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "chromium",
+   "test": "joyride-steps",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "firefox",
+   "test": "joyride-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "firefox",
+   "test": "joyride-steps",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "webkit",
+   "test": "joyride-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "joyride",
+   "browser": "webkit",
+   "test": "joyride-steps",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-A",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "no-library-B",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-aria",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  }
+ ],
+ "fixed": [
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "floating-ui",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "native",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "trapped"
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": true,
+   "outcome": "attached"
+  },
+  {
+   "impl": "radix",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "8-scroll",
+   "pass": false,
+   "outcome": "drifted"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "chromium",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "8-scroll",
+   "pass": false,
+   "outcome": "drifted"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "firefox",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "1-keyboard-open",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "2-escape",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "3-choose-option",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "left-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "8-scroll",
+   "pass": false,
+   "outcome": "drifted"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit-option-tab",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "1-keyboard-open",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "10-open-after-scroll",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "2-escape",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "3-choose-option",
+   "pass": false,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "4-outside-click",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "5-tab-past-end",
+   "pass": null,
+   "outcome": "never-entered-popover"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "6-edge",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "7-clipping",
+   "pass": true,
+   "outcome": null
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "8-scroll",
+   "pass": false,
+   "outcome": "drifted"
+  },
+  {
+   "impl": "react-tiny-popover",
+   "browser": "webkit",
+   "test": "9-aria",
+   "pass": true,
+   "outcome": null
+  }
+ ],
+ "resultCount": 486
+}

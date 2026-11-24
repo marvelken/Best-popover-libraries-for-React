@@ -1,0 +1,36 @@
+{
+  "impl": "floating-ui",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "10-open-after-scroll",
+  "scrollY": 200,
+  "visible": true,
+  "trigger": {
+    "x": 500.921875,
+    "y": 119.5,
+    "width": 98.625,
+    "height": 27,
+    "top": 119.5,
+    "right": 599.546875,
+    "bottom": 146.5,
+    "left": 500.921875
+  },
+  "popover": {
+    "x": 470,
+    "y": 156.5,
+    "width": 160,
+    "height": 67,
+    "top": 156.5,
+    "right": 630,
+    "bottom": 223.5,
+    "left": 470
+  },
+  "gap": {
+    "below": 10,
+    "above": -104,
+    "horizontal": -30.921875
+  },
+  "attached": true,
+  "pass": true,
+  "recordedAt": "2026-11-16T17:15:45.778Z"
+}

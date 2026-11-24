@@ -1,0 +1,18 @@
+{
+  "impl": "react-tiny-popover",
+  "variant": "fixed",
+  "browser": "webkit",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "header.page-header",
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "react-tiny-popover (extra work)NameEmail",
+    "testid": null,
+    "where": "body"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-20T18:43:34.417Z"
+}

@@ -1,0 +1,22 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "webkit-option-tab",
+  "test": "8-scroll",
+  "scrolledBy": 200,
+  "gapBefore": {
+    "vertical": 7.5,
+    "horizontal": -30.6875
+  },
+  "gapAfter": {
+    "vertical": 7.5,
+    "horizontal": -30.6875
+  },
+  "driftPx": {
+    "vertical": 0,
+    "horizontal": 0
+  },
+  "outcome": "attached",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:16:19.633Z"
+}

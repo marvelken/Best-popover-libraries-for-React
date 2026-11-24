@@ -1,0 +1,18 @@
+{
+  "impl": "react-aria",
+  "variant": "default",
+  "browser": "webkit",
+  "test": "4-outside-click",
+  "openedVisible": true,
+  "clickedElement": "body",
+  "closed": true,
+  "focusAfter": {
+    "tag": "button",
+    "role": null,
+    "text": "Role: Admin",
+    "testid": "trigger-0",
+    "where": "trigger"
+  },
+  "pass": true,
+  "recordedAt": "2026-11-16T17:15:50.849Z"
+}

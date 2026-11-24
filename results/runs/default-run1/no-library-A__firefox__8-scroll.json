@@ -1,0 +1,22 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "8-scroll",
+  "scrolledBy": 200,
+  "gapBefore": {
+    "vertical": 8,
+    "horizontal": 0
+  },
+  "gapAfter": {
+    "vertical": 8,
+    "horizontal": 0
+  },
+  "driftPx": {
+    "vertical": 0,
+    "horizontal": 0
+  },
+  "outcome": "attached",
+  "pass": true,
+  "recordedAt": "2026-11-16T17:12:13.997Z"
+}

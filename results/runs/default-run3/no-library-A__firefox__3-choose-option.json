@@ -1,0 +1,19 @@
+{
+  "impl": "no-library-A",
+  "variant": "default",
+  "browser": "firefox",
+  "test": "3-choose-option",
+  "reachedUser": true,
+  "tabsToUser": 2,
+  "closed": true,
+  "focusAfter": {
+    "tag": "body",
+    "role": null,
+    "text": "No library (A): position absolute, no po",
+    "testid": null,
+    "where": "body"
+  },
+  "triggerTextAfter": "Role: User",
+  "pass": false,
+  "recordedAt": "2026-11-16T17:16:33.053Z"
+}
